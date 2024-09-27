@@ -831,6 +831,9 @@ footer {
   color: #02225d;
   font-size: 20px;
 }
+.no-scroll {
+  overflow: hidden;
+}
 .not-found span {
   color: #ffa500;
 }
