@@ -42,10 +42,10 @@ export default function AboutPage({ lg2 }) {
           >
             where we transform challenges into streamlined solutions. We
             specialize in enhancing efficiency and boosting operational
-            performance, meticulously tailored to meet your unique needs. Our
-            commitment to excellence drives us to deliver bespoke strategies
-            that propel your business forward in today&apos;s competitive
-            landscape.
+            performance, meticulously tailored to meet your unique needs.
+            <br /> Our commitment to excellence drives us to deliver bespoke
+            strategies that propel your business forward in today&apos;s
+            competitive landscape.
           </p>
           <NavLink to="/contact">
             <button
