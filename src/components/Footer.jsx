@@ -8,7 +8,12 @@ export default function Footer() {
           <div>
             <div className="socials">
               {socials.map((social, index) => (
-                <a href={social.link} key={index}>
+                <a
+                  href={social.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  key={index}
+                >
                   <img
                     src={social.img}
                     alt="social"
@@ -19,6 +24,8 @@ export default function Footer() {
             </div>
             <a
               href="mailto:hello@edenprong.com"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{ color: "#FFFFFF", fontWeight: "400" }}
             >
               Say 👋 at hello@edenprong.com
@@ -26,6 +33,8 @@ export default function Footer() {
 
             <a
               href="tel:09067031363"
+              target="_blank"
+              rel="noopener noreferrer"
               style={{
                 color: "#FFFFFF",
                 fontWeight: "400",

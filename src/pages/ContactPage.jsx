@@ -13,6 +13,8 @@ export default function ContactPage({ showPopUp }) {
           </p>
           <p className="cont-hd">Contact us</p>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="tel:234-903-110-5298"
             style={{
               textDecoration: "none",
@@ -22,6 +24,8 @@ export default function ContactPage({ showPopUp }) {
           </a>
 
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href="mailto:hello@edenprong.com"
             style={{
               textDecoration: "none",
