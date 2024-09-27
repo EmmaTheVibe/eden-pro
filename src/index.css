@@ -818,6 +818,23 @@ footer {
   letter-spacing: 1px;
 }
 
+.not-found {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  background-color: #fff;
+  z-index: 5;
+  color: #02225d;
+  font-size: 20px;
+}
+.not-found span {
+  color: #ffa500;
+}
+
 @media screen and (min-width: 400px) {
   .container {
     width: 360px;

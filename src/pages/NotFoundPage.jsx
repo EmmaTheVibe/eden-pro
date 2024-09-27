@@ -1,3 +1,11 @@
 export default function NotFoundPage() {
-  return <div>404 Page not found</div>;
+  return (
+    <div className="not-found">
+      <h1>
+        <span>404.</span>
+        <br />
+        Page not found.
+      </h1>
+    </div>
+  );
 }
