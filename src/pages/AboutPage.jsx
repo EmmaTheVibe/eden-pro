@@ -3,7 +3,7 @@ import Utilities from "../components/Utilities";
 import { media } from "../utils/data";
 import { NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const aboutHeroVariants = {
   initial: {
