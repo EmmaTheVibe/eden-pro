@@ -1,5 +1,5 @@
 import { media } from "../utils/data";
-import { set, useForm } from "react-hook-form";
+import { useForm } from "react-hook-form";
 import { useState } from "react";
 import CircularProgress from "@mui/material/CircularProgress";
 import { submitEmail } from "../firebase/firebaseService";

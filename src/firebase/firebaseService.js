@@ -1,7 +1,5 @@
-import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc } from "firebase/firestore";
 import { db } from "./firebaseConfig";
-
-// Initialize Firestore
 
 // Function to submit email
 export const submitEmail = async (email) => {
