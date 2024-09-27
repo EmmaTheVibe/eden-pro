@@ -57,7 +57,7 @@ export default function HomePage() {
 
               <div className="banner">
                 <h1 className="header">
-                  All Your <br /> Business Solutions In One Place
+                  All Your <br /> Business Solutions in One Place
                 </h1>
                 <motion.img
                   variants={underlineVariants}
@@ -71,7 +71,7 @@ export default function HomePage() {
               </div>
 
               <p className="details">
-                Our ERP system is designed to cater to businesses of all sizes,
+                Our solutions are designed to cater to businesses of all sizes,
                 from innovative startups to established enterprises.
               </p>
 
@@ -90,7 +90,8 @@ export default function HomePage() {
 
             <div className="rand">
               <h1>
-                Imagine a vast collection of business apps at your disposal.
+                Imagine a vast collection of business solutions at your
+                disposal.
               </h1>
               <p>
                 Explore an extensive array of business solutions designed to

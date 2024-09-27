@@ -968,6 +968,9 @@ footer {
   .container {
     width: 790px;
   }
+  .details {
+    width: 80%;
+  }
   li:first-of-type {
     margin-right: 33px;
   }
@@ -994,7 +997,9 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .rand h1,
+  .rand h1 {
+    width: 75%;
+  }
   .rand p {
     width: 80%;
   }
@@ -1135,7 +1140,7 @@ footer {
   .details {
     font-size: 20px;
     line-height: 30px;
-    width: 86%;
+    width: 937px;
   }
   .set-up {
     width: 166.77px;
@@ -1399,6 +1404,9 @@ footer {
   }
   .workspace {
     margin: 0 90px 0 0;
+  }
+  .rand h1 {
+    width: 850px;
   }
   .reviews-list {
     grid-template-columns: repeat(4, 1fr);
