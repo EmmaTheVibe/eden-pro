@@ -14,7 +14,7 @@ const serviceVariants = {
     x: 0,
     transition: {
       duration: 0.3,
-      delay: 0.1 * index,
+      delay: 0.05 * index,
     },
   }),
 };
