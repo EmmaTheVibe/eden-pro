@@ -816,6 +816,11 @@ footer {
   color: #101010;
   font-weight: 700;
   letter-spacing: 1px;
+  text-align: center;
+  line-height: 24px;
+}
+.popup-txt span {
+  color: #ffa500;
 }
 
 .not-found {
@@ -1251,7 +1256,12 @@ footer {
   .about-btn {
     width: 178.4px;
     height: 54px;
+  }
+  .about-btn p {
     font-size: 14px;
+  }
+  .about-btn img {
+    transform: translateY(-1px);
   }
   .hero-p {
     font-size: 20px;

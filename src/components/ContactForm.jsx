@@ -57,6 +57,9 @@ export default function ContactForm({ showPopUp }) {
         (result) => {
           console.log("Email sent successfully:", result.text);
           console.log("Email sent successfully to edenprosolutions@gmail.com");
+          setLoading(false);
+          showPopUp();
+          reset();
         },
         (error) => {
           console.log("Email send error:", error.text);
@@ -64,9 +67,6 @@ export default function ContactForm({ showPopUp }) {
           console.log("User Id:", emailjsUserId);
         }
       );
-    setLoading(false);
-    showPopUp();
-    reset();
   };
   return (
     <div className="contact-form-box">
