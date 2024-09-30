@@ -42,7 +42,6 @@ const reviews = [
     logo: "./images/vendors.svg",
     name: "Ayo",
     company: "Vendorshub",
-    avatar: "./images/ajoke.png",
   },
   {
     comment:
@@ -50,7 +49,6 @@ const reviews = [
     logo: "./images/teendin.svg",
     name: "Tade",
     company: "TeendIN",
-    avatar: "./images/john.png",
   },
   {
     comment:
@@ -58,7 +56,6 @@ const reviews = [
     logo: "./images/market.svg",
     name: "Promise",
     company: "GreenEarth",
-    avatar: "./images/samantha.png",
   },
 ];
 
