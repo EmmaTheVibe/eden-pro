@@ -37,36 +37,28 @@ const features = [
 
 const reviews = [
   {
-    comment: "The ERP solution transformed our entire operation. We’ve seen a",
-    commentB: "and a significant reduction in errors.",
-    logo: "./images/belle.svg",
-    name: "Fatima Ajoke",
-    position: "CEO of Tech Innovators",
+    comment:
+      "Edenpro transformed our business operations. Their tailored automation and invoicing solutions saved us hours each week, allowing us to focus on growth. The team's expertise and personalized approach made all the difference. We couldn't be happier with the results.",
+    logo: "./images/vendors.svg",
+    name: "Ayo",
+    company: "Vendorshub",
     avatar: "./images/ajoke.png",
   },
   {
     comment:
-      "As we expanded, the scalable platform adapted effortlessly to our growing needs. It’s the best investment we’ve made for our business",
-    logo: "./images/pg.svg",
-    name: "John D.",
-    position: "Founder of Growth Ventures",
+      "Working with Edenpron was a game-changer. Their sales optimization strategies helped us improve our conversion rates significantly. They really took the time to understand our needs, and their customized solutions made a huge impact on our revenue.",
+    logo: "./images/teendin.svg",
+    name: "Tade",
+    company: "TeendIN",
     avatar: "./images/john.png",
   },
   {
     comment:
-      "With the seamless integration across departments, our workflow has never been smoother. The real-time insights have revolutionized our decision-making process.",
+      "The training programs provided by EdenPro were exceptional. Our team gained invaluable skills that directly improved productivity and efficiency. Their ability to tailor solutions specifically for our challenges was impressive. We highly recommend their services for any business looking to improve their operations.",
     logo: "./images/market.svg",
-    name: "Samantha L.",
-    position: "COO of Market Leaders Inc.",
+    name: "Promise",
+    company: "GreenEarth",
     avatar: "./images/samantha.png",
-  },
-  {
-    comment:
-      "Our customer service has improved tremendously since we adopted this ERP system. We can now respond to client needs faster and more effectively.",
-    logo: "./images/enterprise.svg",
-    name: "Michael T.",
-    position: "CFO of Enterprise Solutions",
-    avatar: "./images/michael.png",
   },
 ];
 

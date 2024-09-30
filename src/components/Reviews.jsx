@@ -38,24 +38,13 @@ export default function Reviews() {
               >
                 <div className="review-info">
                   <img src={review.logo} alt="" className="review-logo" />
-                  {index === 0 ? (
-                    <p>
-                      {review.comment}{" "}
-                      <span style={{ color: "#f9b21d" }}>
-                        30% increase in productivity
-                      </span>{" "}
-                      {review.commentB}
-                    </p>
-                  ) : (
-                    <p>{review.comment}</p>
-                  )}
+                  <p>{review.comment}</p>
                 </div>
                 <div className="commenter">
                   <div className="commenter-info">
                     <p className="commenter-name">{review.name}</p>
-                    <p className="position">{review.position}</p>
+                    <p className="position">{review.company}</p>
                   </div>
-                  <img src={review.avatar} alt="" />
                 </div>
               </motion.div>
             ))}

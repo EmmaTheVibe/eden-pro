@@ -373,14 +373,13 @@ button {
   overflow: hidden;
   border: 1px solid #dddddd;
   border-radius: 12px;
-  padding: 20px 0 0 20px;
+  padding: 24px 30px 40px 26px;
   color: #101010;
 }
 .review-info {
-  padding-right: 16px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 26px;
 }
 .review-info img {
   margin-bottom: 12px;
@@ -390,9 +389,10 @@ button {
   justify-content: space-between;
 }
 .commenter-name {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
-  line-height: 27.36px;
+  line-height: 36.48px;
+  font-family: "Salsa", sans-serif;
 }
 .position {
   font-size: 16px;
@@ -886,10 +886,13 @@ footer {
   .reviews-list {
     width: 360px;
   }
-  .review-info {
-    padding-right: 30px;
+  .review-item {
+    padding: 24px 32px 40px 26px;
   }
-
+  .review-info {
+    font-size: 18px;
+    line-height: 30px;
+  }
   /* about page */
   .about-header {
     font-size: 34px;
@@ -1031,6 +1034,13 @@ footer {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 34px;
+  }
+  .review-item {
+    padding: 24px 40px 40px 26px;
+  }
+  .review-info {
+    font-size: 18px;
+    line-height: 30px;
   }
   .connect-box {
     padding: 66px 0 69px;
@@ -1236,8 +1246,12 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
   }
+  .review-item {
+    padding: 24px 56px 40px 26px;
+  }
   .review-info {
-    padding-right: 20px;
+    font-size: 16px;
+    line-height: 25.6px;
   }
   .connect-section {
     padding: 110px 0;
@@ -1419,12 +1433,17 @@ footer {
     width: 850px;
   }
   .reviews-list {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 7px;
+    gap: 40px;
+  }
+  .review-item {
+    padding: 24px 56px 40px 26px;
   }
   .review-info {
-    font-size: 17px;
-    padding-right: 22px;
+    font-size: 16px;
+    line-height: 25.6px;
+  }
+  .commenter-name {
+    margin-bottom: 6px;
   }
 }
 
@@ -1490,11 +1509,10 @@ footer {
     font-size: 118px;
   }
   .reviews-list {
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 60px;
   }
-  .review-info {
-    font-size: 18px;
+  .review-item {
+    padding: 24px 61px 40px 34px;
   }
   .footer-logo {
     width: 458px;
@@ -1554,15 +1572,9 @@ footer {
     margin-bottom: 20px;
   }
   .reviews-list {
-    gap: 30px;
+    width: 1230px;
   }
-  .review-item {
-    padding: 30px 0 0 40px;
-  }
-  .review-info {
-    padding-right: 40px;
-    font-size: 20px;
-  }
+
   .connect-box {
     padding: 94px 0;
   }
