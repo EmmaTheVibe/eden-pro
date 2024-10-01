@@ -61,7 +61,7 @@ const reviews = [
 
 const media = {
   hamburger: "./images/menu.svg",
-  logo: "./images/logo.svg",
+  logo: "./images/logo.png",
   reviewsLogo: "./images/reviews-logo.png",
   logoM: "./images/logoM.svg",
   logoWhite: "./images/logo-white.svg",
