@@ -38,7 +38,7 @@ nav {
 }
 .logo {
   width: 135px;
-  height: 42.91px;
+  height: 30.69px;
   transform: translateX(-5px);
 }
 .menu {
@@ -353,6 +353,10 @@ button {
   font-size: 50px;
   text-align: center;
   margin: 0 0 20px;
+}
+.reviews-header img {
+  width: 267px;
+  height: 84.87px;
 }
 
 .reviews-list {
@@ -875,10 +879,7 @@ footer {
   .reviews-header h1 {
     font-size: 58px;
   }
-  .reviews-header img {
-    width: 267px;
-    height: 84.87px;
-  }
+
   .reviews-list {
     width: 360px;
   }

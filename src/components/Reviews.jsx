@@ -23,7 +23,7 @@ export default function Reviews() {
         <div className="reviews-box">
           <div className="reviews-header">
             <h1>They All Love</h1>
-            <img src={media.logo} alt="logo" />
+            <img src={media.reviewsLogo} alt="logo" />
           </div>
           <div className="reviews-list">
             {reviews.map((review, index) => (

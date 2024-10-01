@@ -62,6 +62,8 @@ const reviews = [
 const media = {
   hamburger: "./images/menu.svg",
   logo: "./images/logo.svg",
+  reviewsLogo: "./images/reviews-logo.png",
+  logoM: "./images/logoM.svg",
   logoWhite: "./images/logo-white.svg",
   logoDark: "./images/logo-dark.svg",
   underline: "./images/underline.svg",
@@ -84,7 +86,10 @@ const socials = [
   },
   { img: "./images/twitter.svg", link: "" },
   { img: "./images/fb.svg", link: "http://www.facebook.com/edenprong" },
-  { img: "./images/linkedin.svg", link: "" },
+  {
+    img: "./images/linkedin.svg",
+    link: "https://www.linkedin.com/company/edenprong/",
+  },
 ];
 
 const utilities = [
