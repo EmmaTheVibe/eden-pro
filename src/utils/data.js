@@ -80,11 +80,11 @@ const media = {
 
 const socials = [
   { img: "./images/ig.svg", link: "https://www.instagram.com/edenprong/" },
-  {
-    img: "./images/whatsapp.svg",
-    link: "",
-  },
-  { img: "./images/twitter.svg", link: "" },
+  // {
+  //   img: "./images/whatsapp.svg",
+  //   link: "",
+  // },
+  // { img: "./images/twitter.svg", link: "" },
   { img: "./images/fb.svg", link: "http://www.facebook.com/edenprong" },
   {
     img: "./images/linkedin.svg",

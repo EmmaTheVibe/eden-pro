@@ -13,14 +13,14 @@ export default function ContactPage({ showPopUp }) {
           </p>
           <p className="cont-hd">Contact us</p>
           <a
+            href="tel:09067031363"
             target="_blank"
             rel="noopener noreferrer"
-            href="tel:234-903-110-5298"
             style={{
               textDecoration: "none",
             }}
           >
-            <p className="cont-tel">234-903-110-5298</p>
+            <p className="cont-tel">09067031363</p>
           </a>
 
           <a
