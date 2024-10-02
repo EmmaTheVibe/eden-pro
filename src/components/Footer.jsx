@@ -1,4 +1,5 @@
 import { media, socials } from "../utils/data";
+
 export default function Footer() {
   return (
     <footer>

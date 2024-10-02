@@ -47,26 +47,6 @@ function App() {
     });
   };
 
-  // useEffect(() => {
-  //   // Disable smooth scroll before the page unloads
-  //   const handleBeforeUnload = () => {
-  //     document.documentElement.style.scrollBehavior = "auto";
-  //   };
-
-  //   // Re-enable smooth scroll after the page loads
-  //   const handleLoad = () => {
-  //     document.documentElement.style.scrollBehavior = "smooth";
-  //   };
-
-  //   window.addEventListener("beforeunload", handleBeforeUnload);
-  //   window.addEventListener("load", handleLoad);
-
-  //   return () => {
-  //     window.removeEventListener("beforeunload", handleBeforeUnload);
-  //     window.removeEventListener("load", handleLoad);
-  //   };
-  // }, []);
-
   return (
     <main>
       <BrowserRouter>
