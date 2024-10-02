@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/Home.jsx";
 import AboutPage from "./pages/AboutPage";
@@ -47,25 +47,25 @@ function App() {
     });
   };
 
-  useEffect(() => {
-    // Disable smooth scroll before the page unloads
-    const handleBeforeUnload = () => {
-      document.documentElement.style.scrollBehavior = "auto";
-    };
+  // useEffect(() => {
+  //   // Disable smooth scroll before the page unloads
+  //   const handleBeforeUnload = () => {
+  //     document.documentElement.style.scrollBehavior = "auto";
+  //   };
 
-    // Re-enable smooth scroll after the page loads
-    const handleLoad = () => {
-      document.documentElement.style.scrollBehavior = "smooth";
-    };
+  //   // Re-enable smooth scroll after the page loads
+  //   const handleLoad = () => {
+  //     document.documentElement.style.scrollBehavior = "smooth";
+  //   };
 
-    window.addEventListener("beforeunload", handleBeforeUnload);
-    window.addEventListener("load", handleLoad);
+  //   window.addEventListener("beforeunload", handleBeforeUnload);
+  //   window.addEventListener("load", handleLoad);
 
-    return () => {
-      window.removeEventListener("beforeunload", handleBeforeUnload);
-      window.removeEventListener("load", handleLoad);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("beforeunload", handleBeforeUnload);
+  //     window.removeEventListener("load", handleLoad);
+  //   };
+  // }, []);
 
   return (
     <main>
