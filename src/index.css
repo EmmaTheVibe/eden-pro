@@ -1594,10 +1594,11 @@ footer {
   }
 
   .utilities-list {
-    gap: 80px;
+    width: 1250px;
+    gap: 20px;
   }
   .util {
-    padding: 32px 45px 0 40px;
+    padding: 32px 34px 0 28px;
   }
 
   .contact-form-box {
