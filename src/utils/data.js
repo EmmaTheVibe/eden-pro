@@ -53,7 +53,7 @@ const reviews = [
   {
     comment:
       "The training programs provided by EdenPro were exceptional. Our team gained invaluable skills that directly improved productivity and efficiency. Their ability to tailor solutions specifically for our challenges was impressive. We highly recommend their services for any business looking to improve their operations.",
-    logo: "./images/market.svg",
+    logo: "./images/green-earth.svg",
     name: "Promise",
     company: "GreenEarth",
   },
