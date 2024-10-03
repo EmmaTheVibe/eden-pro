@@ -14,7 +14,7 @@ const features = [
     content:
       "EdenPro features a user-friendly interface, making it straightforward for startups to adopt and utilize our tools effectively without extensive training or complex setup processes.",
     svg: "./images/easy.svg",
-    image: "./images/easy-img.png",
+    image: "./images/easy-img.webp",
     color: "#263F6D",
   },
   {
@@ -22,7 +22,7 @@ const features = [
     content:
       "Our platform seamlessly integrates with existing systems, ensuring minimal disruption to workflows. Startups can effortlessly incorporate EdenPro into their operations, enhancing efficiency and productivity from the outset.",
     svg: "./images/seamless.svg",
-    image: "./images/seamless-img.png",
+    image: "./images/seamless-img.webp",
     color: "#FEC600",
   },
   {
@@ -30,7 +30,7 @@ const features = [
     content:
       "Cost-effectiveness is paramount for startups. EdenPro offers competitive pricing plans that cater to budget constraints without compromising on quality or essential features, making it an ideal choice for sustainable growth.",
     svg: "./images/affordable.svg",
-    image: "./images/affordable-img.png",
+    image: "./images/affordable-img.webp",
     color: "#089949",
   },
 ];
