@@ -21,7 +21,7 @@ export default function Features() {
     <div className="features">
       <div className="features-header">
         <h1>Why Organizations Use Edenpro</h1>
-        <img src={media.arrowDown} alt="" />
+        <img src={media.arrowDown} alt="arrow down" />
       </div>
       <div className="features-list">
         {features.map((feature, index) => (
@@ -43,7 +43,7 @@ export default function Features() {
               className="feature-img"
               style={{ backgroundColor: feature.color }}
             >
-              <img src={feature.image} alt="" />
+              <img src={feature.image} alt={feature.title} />
             </div>
           </motion.div>
         ))}

@@ -37,7 +37,11 @@ export default function Reviews() {
                 key={index}
               >
                 <div className="review-info">
-                  <img src={review.logo} alt="" className="review-logo" />
+                  <img
+                    src={review.logo}
+                    alt={review.company}
+                    className="review-logo"
+                  />
                   <p>{review.comment}</p>
                 </div>
                 <div className="commenter">

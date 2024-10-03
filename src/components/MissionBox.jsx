@@ -50,7 +50,7 @@ export default function MissionBox({ lg2 }) {
           specific goals and challenges, we craft customized solutions that
           drive growth, innovation, and success.
         </p>
-        <img src={media.mission} alt="" />
+        <img src={media.mission} alt="workspace" />
       </motion.div>
       <motion.div
         variants={approachVariants}
@@ -59,7 +59,7 @@ export default function MissionBox({ lg2 }) {
         viewport={{ once: true }}
         className="approach"
       >
-        <img src={media.approach} alt="" />
+        <img src={media.approach} alt="workspace" />
         <h2>OUR APPROACH</h2>
         <p>
           We believe in a collaborative approach, working closely with you to

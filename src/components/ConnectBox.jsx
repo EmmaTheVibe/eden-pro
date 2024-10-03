@@ -36,7 +36,7 @@ export default function ConnectBox({ showPopUp }) {
     <section className="connect-section">
       <div className="container">
         <div className="connect-box">
-          <img src={media.logoWhite} alt="" className="connect-logo" />
+          <img src={media.logoWhite} alt="logo" className="connect-logo" />
           <p className="connect-remark">
             Let’s help you achieve your business goals today.
           </p>

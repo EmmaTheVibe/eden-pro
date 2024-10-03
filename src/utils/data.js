@@ -79,14 +79,24 @@ const media = {
 };
 
 const socials = [
-  { img: "./images/ig.svg", link: "https://www.instagram.com/edenprong/" },
   {
+    name: "instagram",
+    img: "./images/ig.svg",
+    link: "https://www.instagram.com/edenprong/",
+  },
+  {
+    name: "whatsapp",
     img: "./images/whatsapp.svg",
     link: "https://wa.link/vk8wgr",
   },
   // { img: "./images/twitter.svg", link: "" },
-  { img: "./images/fb.svg", link: "http://www.facebook.com/edenprong" },
   {
+    name: "facebook",
+    img: "./images/fb.svg",
+    link: "http://www.facebook.com/edenprong",
+  },
+  {
+    name: "linkedin",
     img: "./images/linkedin.svg",
     link: "https://www.linkedin.com/company/edenprong/",
   },

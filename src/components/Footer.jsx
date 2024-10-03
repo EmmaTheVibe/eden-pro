@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
       <div className="container">
         <div className="foot">
-          <img src={media.logoDark} alt="" className="footer-logo" />
+          <img src={media.logoDark} alt="logo" className="footer-logo" />
           <div>
             <div className="socials">
               {socials.map((social, index) => (
@@ -17,7 +17,7 @@ export default function Footer() {
                 >
                   <img
                     src={social.img}
-                    alt="social"
+                    alt={`${social.name} icon`}
                     className={index === 4 ? "soc-last" : "soc"}
                   />
                 </a>

@@ -65,7 +65,7 @@ export default function HomePage() {
                   whileInView="animate"
                   viewport={{ once: true }}
                   src={media.underline}
-                  alt=""
+                  alt="underline"
                   className="underline"
                 />
               </div>

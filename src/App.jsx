@@ -49,33 +49,35 @@ function App() {
 
   return (
     <main>
-      <BrowserRouter>
-        {!lg && (
-          <DrawerTab
-            openDrawer={openDrawer}
-            setOpenDrawer={setOpenDrawer}
+      <article>
+        <BrowserRouter>
+          {!lg && (
+            <DrawerTab
+              openDrawer={openDrawer}
+              setOpenDrawer={setOpenDrawer}
+              toggleDrawer={toggleDrawer}
+            />
+          )}
+          <NavBar
+            lg={lg}
             toggleDrawer={toggleDrawer}
+            setOpenDrawer={setOpenDrawer}
           />
-        )}
-        <NavBar
-          lg={lg}
-          toggleDrawer={toggleDrawer}
-          setOpenDrawer={setOpenDrawer}
-        />
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="about" element={<AboutPage lg2={lg2} />} />
-          <Route
-            path="contact"
-            element={<ContactPage showPopUp={showPopUp} />}
-          />
-          <Route path="*" element={<NotFoundPage />} />
-        </Routes>
-        <ConnectBox showPopUp={showPopUp} />
-        <Footer />
-        <PopUp popUp={popUp} setPopUp={setPopUp} />
-      </BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="about" element={<AboutPage lg2={lg2} />} />
+            <Route
+              path="contact"
+              element={<ContactPage showPopUp={showPopUp} />}
+            />
+            <Route path="*" element={<NotFoundPage />} />
+          </Routes>
+          <ConnectBox showPopUp={showPopUp} />
+          <Footer />
+          <PopUp popUp={popUp} setPopUp={setPopUp} />
+        </BrowserRouter>
+      </article>
     </main>
   );
 }
